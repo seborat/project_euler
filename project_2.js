@@ -3,7 +3,7 @@
 /*Couldn't figure this out on my own. No idea why neither solution works...*/
 
 
-var fib[],i=0, j=1, x=1, sum=0;
+var fib=[],i=0, j=1, x=1, sum=0;
   while (x<4000000){
     x=i+j;
     i=x-i;
